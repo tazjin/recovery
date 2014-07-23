@@ -104,6 +104,7 @@ Just this document and the repository at [Github](https://github.com/tazjin/reco
 ## Random notes
 
 * The contents of the USB key must be as permanent as possible, replacing all USB keys should (optimally) be an expensive thing to do
+* Do **not** rely on humans
 
 ## Future paranoia options
 
@@ -114,17 +115,17 @@ Things I can do to improve the security of this:
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAEBCgAGBQJT0DkhAAoJEGb1BWgduPQ7SM4P/Rk/LfkzyqD8JG8ffZqY53Fs
-vePeS+M32hAl/2PXtfQ+TXXauI9oyTOwdnud2nlg8JfjgMddQgHtylfE/iOLaxGP
-P8c111YI9Aijvse4fHZ1GfZ1eUbWQPv01XPa/LsvXAjPekQ2pqGZkQSgYcIkHD69
-mhOudIH6fw/Cna8iOcrBv902cx49VjWSSU7UvKPD8hGoonbKHT01fsdMT/J1IM26
-j3N1c9qnTsmxBLOtkq5lvDQn8cUSRJ50tubulX2Q89YKiYvIlL72iezse+sdPjjA
-GABX04qpryY6VmOKd7PmL5KmbE44f5zHeWx/zhEpnNKODuQSXhnn87oSwL+SF9JS
-cBoqeMD5PTAC7+q0C8PGAVo1lVPyUWmp6A9Y7e7uD4RtddK5ku118Pxu9XbLXId/
-3UYRhvODUw/hGqY4WDbEjcnnAFyc+BwS2nHbyQurIghIYEkby9d69zHV9BSRkvab
-Z77THSJ/LlTChUBnIaPtKUzxTXcRknC82EmIjdfIoFOUZXYLL9gjjVTGpEIrC8d9
-KcAO3noQvTbBxUEYaq5b0J7JPviK6dOPXr6sXP++ECnXT15KLZ27/PYt3iP+oFZE
-tHVi2mLQWBUB64BohSlQSWA1+lD1BKml3d1C8giIeGyzDRsKcSInI6u5tC6hB36+
-hmkoJZ6uTuZnfvnltbp4
-=gP5A
+iQIcBAEBCgAGBQJT0D9FAAoJEGb1BWgduPQ7phgP/1oxvSh67vApzrvUllk3hbqQ
+cNm5tAwD5RzODRYlHurbuWxjYyhiGpaYd4ghy5z9uE6hGgR1UNy7xIRK3ovnpMDT
+1m2mfyDxJE00vLwUWvpprkj2sDoR9qb1vNhguI8rMvm6EC1bnfd1tVeyJLIlFAm6
+RNNquhBb37pi8gZWpSyBI07aef9enIf+Nr4ZHe1I3SQCeJIdV8hcUN8fZ757CtKv
+kPeKeCUzrKAERxAkj6L4ColrjKn7/kgEXhnGXi/6pIImLfFz/OBZXxxuzzmCM9J0
+JU9n3b9eKjAG1u9pfRVAvGBFivrHtYf2BRYNrWb94kH68fEzIu6nSf/M8VcDDLnH
+3RwEMCLwxzZsUKaLFbUBLnU+ZAuKdqQH0ZOVgJHUdFiL5whw/fZB+kReg2KoNzIl
+Ilj63tiGzpfOk0/GV32brrC1bK76y0oX1c+RnDS6qAQmVqglKvAA53+JVo5gWfho
+cZ28ZM8k9QRtFvAiIhnlHJj8+rC71G3S8udNywbP2T89W9EtXoZ8Uvr4CAGYfOos
+gTmphi7lWch/eM7xhBIxcwwFNsKYZdQOugcy7C+Vk/z8dl83cIpKTUVHhFIRmPXy
+QJzRDdn99VKdQaxMPGobLdA5uNmoLzejyBmWzQakOVpj/Rc3Yd63BTy2xudHA5Lj
+BxymU6xs3llyDmeJhKoe
+=Xwj1
 -----END PGP SIGNATURE-----
