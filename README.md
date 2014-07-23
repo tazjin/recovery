@@ -12,12 +12,12 @@ The rough idea is that I can recover access to my online identities from my emai
 My password management is done with simple GPG encryption to my own key. The idea is to store a GPG key in a physically safe location so that I can use it in combination with public data to access my stuff. The chain is as follows:
 
 Physical token with GPG private key passphrase (on a Yubikey, in a deposit box)
-> protected GPG private key (printed / on USB in a (separate) deposit box)
-> public repository (this) with GPG encrypted instructions
-> instructions lead to SSH private key recovery
-> instructions have two-factor emergency tokens
-> SSH private key allows retrieval of password store
-> password store (dependent on GPG key) contains Google credentials (and in best case even still valid ones for all other stuff)
+- -> protected GPG private key (printed / on USB in a (separate) deposit box)
+- -> public repository (this) with GPG encrypted instructions
+- -> instructions lead to SSH private key recovery
+- -> instructions have two-factor emergency tokens
+- -> SSH private key allows retrieval of password store
+- -> password store (dependent on GPG key) contains Google credentials (and in best case even still valid ones for all other stuff)
 
 ## Technologies and tools
 
@@ -106,17 +106,17 @@ Things I can do to improve the security of this:
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAEBCgAGBQJT0CSCAAoJEGb1BWgduPQ7CxAP/0PENXA/XLcPkywMgEIPvkH1
-elV2tpvFRDD5TMslnC5t6Qmo0+B0qqS/coL+fQ9wVCQhafe6DZfpNkfDt35sjH7x
-XTOtosybBIa98mDjhlTpPcQhFDKDyi55EFfWMijeMxGs8M+Jdhpyel5L7dxb5dxz
-Br8NQfUpN9QSLBUbXFiMDSjcqNTm+DNUut7hF2irzAM2SxJKzBfdgnqgMX01y3Ny
-Rq+j97/tpYRSlO6c7zP1z8VVhoZDY7GLO7wgV/1VqcA0wsKTjFYfiuJGnvlB6J9R
-QMp0f/HsnWHpCcyawKKCkSJJkZv6jTHAdIsx0fJ9F/EPD2+RumEIikPGubQJlv+7
-RMAH+RsEFhzvzw5BDYTJw3isx/cpfwGoo5+Xom9+126VIFDHMKgiGA1GzIr2pQJm
-9IF4uusQAJjnebyWd+UOW8jwZgDwyr8+tic0htkdV60qtEmfqUce+RSCdJ/ZMAVD
-PPJJSWN49eY7JLKAQ8c1Eo3oEzyeoftsq6HK5229cAe97f3120nKrUwxB5yIleUV
-wVTFbOqQ9BNnRsjBDyr3IG70WVxpo9iUj/gsYXaBl4hoJX6yweXOGIZwkQ+VgWBR
-8Q4N9ZvNCpZ98YdqYa6ObJBauQsP6ea9Pr1DaINWPkNxO8yJc2/WNT67DvbVkDmT
-e7aiZOmT2gFl+t9Kt5TS
-=RB2h
+iQIcBAEBCgAGBQJT0CTuAAoJEGb1BWgduPQ7eMcQAL7jSNu4tkb3nuwZSLAsooT8
+zBKB+C44ZhIN8p2dPq+wxP0zqRSMzOV4uh2vInX5z4+yASnnYTuAGsBlnlGzGfGm
++17Ct1OZQYc1iORaKlej7HTYWXandnXCM8ue6HZNZNgcjTo4jkafvS6aQG+c20RR
+3HEzsnwI+Qe8myfVRQG34/FEtPe9QFgQNi6oD/hpiVQ9pN3RWDYFnAfgTmO6mgMM
+gY5Z/RNzvNbUBTAA+bxhiQPS++L8iutHtYK9WXdoFP+zY0flUbjsjRDhBDWowIO2
+Xy6RoIUeOjivDYbG8MtB/ibQ6pxiEaiDibxKrZ95082e7wxaf5lWTF+dAOvCqRVD
+bqdAFVI0xWDGQkmrzjjevCtZd5KN2u1zTGYBXyuZ+z2RSRE1mTk5CjQT2x3xebvS
+L8Ee8ixTfzAHqK4z17YM/3uvOvFjL5tFQja0AnHsORGuk6gYB7Y8I3Mkf0CEoFna
+rEFPE7wJvqX7V69F+F8o5ragXVpDoj6D0CfPHFBqrB+QiiGK0pQYt4CXLK8bNgO6
+qQc1I6LxQ+p1XTC9Us53XguAbtLTSIBr0ko5NIj4+GWLVFoDYkEpZfLHN3DolTXW
+GK2ZsRMwP6gef1hPf/4IhyMgdIrL+FakAIBkUJ3OdroVbShHePUvePr4JZQIO0A+
+T1n8ezZ9Pi+SGvC/tDZG
+=0mQY
 -----END PGP SIGNATURE-----
