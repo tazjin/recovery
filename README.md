@@ -9,12 +9,12 @@ I don't believe in security by obscurity, rather the cryptography and physical s
 
 ## Technologies and tools
 
-This plan is based partially on technology and partially on physical objects as well. The involved components are:
+This plan is based partially on technology and partially on physical objects as well. The involved components are (for N = backup factor):
 
 * my GPG private key
 * my SSH private key
-* (Yubikey) * backup factor
-* (safety deposit box) * backup factor
+* N Yubikeys
+* N safety deposit boxes
 * several publically accessible and mirrored git repositories with strong content encryption.
 ** this repository, existing on Github, BitBucket and possibly at other places as well. It should contain instructions that I could follow even if I had no recollection of creating this recovery plan
 ** a single file encrypted to my own public key 
@@ -28,6 +28,7 @@ These are the minimum available things I assume for being able to recover using 
 * I can think, use computers and understand English
 * I can physically move to places to retrieve things or send someone to retrieve them for me
 * I know and can prove my real-life identity
+* Access to my email allows access recovery to other services
 
 ## The plan
 
@@ -77,7 +78,7 @@ Contents of the safety deposit [boxen](http://en.wiktionary.org/wiki/boxen):
 It is important to separate the private keys from the passphrases because until then the passphrases are essentially useless. Need more deposit boxes!
 
 ## Implementation status
-Nothing yet
+Just this document and the repository at [Github](https://github.com/tazjin/recovery/)
 
 ## Known problems & Open questions
 
@@ -89,20 +90,21 @@ Nothing yet
 Things I can do to improve the security of this:
 
 * Split up physical tokens into several deposit boxes, figure out a way to remind myself of where they are (symmetrically encrypted public note about this, with me carrying the symmetric key in some form)
+
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAEBCgAGBQJT0BmlAAoJEGb1BWgduPQ7mCsP/0X5PJMNpGtBCiXlOwPQ2stE
-IcVS+A/nx1q7FAPs7nyPDiI0WVTVWyN/YXfVag1KTPtMUG+Wn1aJqqs4of3QygNt
-ZnUGCN2RMCCSpNTuqv16X71XmptklV/O1nDPH5cFSq/yeWKFjTjWA0rK5o9XCqfF
-E0/ebbmNmu20YURKp5qOPLjDzEJMuxeeSKxkc4/INI4gH6CMRYg3R9Xc+0EH3/0V
-shE6TqIx+Xf7nf9LHUw5Ouwj84O3X25zLLJazYf4Vx4X0zk2IkP+s2njEcn5qk3a
-3iFDbSSmUC2f3br5YWM39EHygUlfDLD939/cefKJ59l6LYonCRv4jB9BVuE/K6hw
-x5n0At9Ea5rG4Jn42g8Vag93cJ+LNvDNmbXeP12rhfhWEp5mI7vjJHEkQuFm6VCN
-65dzyArI9XPIj1V0+B+qPqZh3SYG/xWint4VGHs3XEdIWVqe01RJTgAB3zLGecdd
-e97ajwtXtn06EiuT9wF5DeXkBEslZqo1ijxCgM5sWpPHg5MsySKAFU/mfdV5sitG
-l3K6FE1qbaQ0YAKd8FHvFWt3Ic3jsdv7CeyW1s1hAz08ltxDymg9H40TgoWg06ou
-dvG+EzAnKwOo7q2FqSEX2Col7W1hhlsfW1FsZV/Ou/xY05fQlEHF7kIUzykdAyeJ
-TsUU0utHI9GNNGW8Jx5e
-=IXnU
+iQIcBAEBCgAGBQJT0Bp6AAoJEGb1BWgduPQ71qoQAIyjKlkrYTrRD5Wd5zbFD4qR
+YTAPpyslz2dZb3CnhQCn/+0xWNkZzsli1zcLWhBzfvvd7N4BwopbPP7timRN/Fpn
+WG7WmhEQcNJo9irIq04ddj0Gt3MgeSgAcpoapIEBfCl45n9VLcHbxCngLpoqStAr
+FXbvjHL9ZDn7FDbzGCrXaKmgsxbnZjX7CVlgc9G0ZTDpzo5WOcgPSRGRjea/XjuR
+owTqM8kKexJttKWhZeZ4eXzknymKUNpcclwiYaOYfd9aTAEWQvusZCTtLfOG3ZLu
+aLLIPHlULbDC36GP8ygPuIjPywOiVQlhLlXaoX48CTjitsh3n985tYzrIMB5vMC2
+rU6kuU/TPEYugACw8NRgj1nnT883arRNAexmZa+JTPEn45mBvR9UBoKbhjoXqNHw
+qnMiyC3vqmLT8ad88Sguz4zVwFDI2yZF9E3CB3NA7P1DvOVxmneO/3PZQwq66+Jt
+e+SrIkwaAw++mDYW3kNxYwlrm0EdY6ibzSqljeeaCXikh+dVE4UzWkvJ0QKWYwOr
+X2ufpkaRvkwemgpVHtzdJlifLkW/wd2Mr5C0v2oOGmZ9PipbO8K7tilimrDUvb4K
+eRfptDa4dAt6jSaWuZMD6h7KC61AYJk2V+otF3xo8q0rDl6pEFxpncjzbwDgAy86
+BhJEUcDg2O9ZizWRZKBf
+=2inJ
 -----END PGP SIGNATURE-----
