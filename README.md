@@ -7,6 +7,18 @@ This project is my recovery plan for access to my online identities in case some
 
 I don't believe in security by obscurity, rather the cryptography and physical safety used for the elements of this plan needs to be trustworthy.
 
+The rough idea is that I can recover access to my online identities from my email account. To guarantee access to my email account, I need a secure way for me to access my account password and two-factor token basically from scratch.
+
+My password management is done with simple GPG encryption to my own key. The idea is to store a GPG key in a physically safe location so that I can use it in combination with public data to access my stuff. The chain is as follows:
+
+Physical token with GPG private key passphrase (on a Yubikey, in a deposit box)
+> protected GPG private key (printed / on USB in a (separate) deposit box)
+> public repository (this) with GPG encrypted instructions
+> instructions lead to SSH private key recovery
+> instructions have two-factor emergency tokens
+> SSH private key allows retrieval of password store
+> password store (dependent on GPG key) contains Google credentials (and in best case even still valid ones for all other stuff)
+
 ## Technologies and tools
 
 This plan is based partially on technology and partially on physical objects as well. The involved components are (for N = backup factor):
@@ -94,17 +106,17 @@ Things I can do to improve the security of this:
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAEBCgAGBQJT0Bp6AAoJEGb1BWgduPQ71qoQAIyjKlkrYTrRD5Wd5zbFD4qR
-YTAPpyslz2dZb3CnhQCn/+0xWNkZzsli1zcLWhBzfvvd7N4BwopbPP7timRN/Fpn
-WG7WmhEQcNJo9irIq04ddj0Gt3MgeSgAcpoapIEBfCl45n9VLcHbxCngLpoqStAr
-FXbvjHL9ZDn7FDbzGCrXaKmgsxbnZjX7CVlgc9G0ZTDpzo5WOcgPSRGRjea/XjuR
-owTqM8kKexJttKWhZeZ4eXzknymKUNpcclwiYaOYfd9aTAEWQvusZCTtLfOG3ZLu
-aLLIPHlULbDC36GP8ygPuIjPywOiVQlhLlXaoX48CTjitsh3n985tYzrIMB5vMC2
-rU6kuU/TPEYugACw8NRgj1nnT883arRNAexmZa+JTPEn45mBvR9UBoKbhjoXqNHw
-qnMiyC3vqmLT8ad88Sguz4zVwFDI2yZF9E3CB3NA7P1DvOVxmneO/3PZQwq66+Jt
-e+SrIkwaAw++mDYW3kNxYwlrm0EdY6ibzSqljeeaCXikh+dVE4UzWkvJ0QKWYwOr
-X2ufpkaRvkwemgpVHtzdJlifLkW/wd2Mr5C0v2oOGmZ9PipbO8K7tilimrDUvb4K
-eRfptDa4dAt6jSaWuZMD6h7KC61AYJk2V+otF3xo8q0rDl6pEFxpncjzbwDgAy86
-BhJEUcDg2O9ZizWRZKBf
-=2inJ
+iQIcBAEBCgAGBQJT0CSCAAoJEGb1BWgduPQ7CxAP/0PENXA/XLcPkywMgEIPvkH1
+elV2tpvFRDD5TMslnC5t6Qmo0+B0qqS/coL+fQ9wVCQhafe6DZfpNkfDt35sjH7x
+XTOtosybBIa98mDjhlTpPcQhFDKDyi55EFfWMijeMxGs8M+Jdhpyel5L7dxb5dxz
+Br8NQfUpN9QSLBUbXFiMDSjcqNTm+DNUut7hF2irzAM2SxJKzBfdgnqgMX01y3Ny
+Rq+j97/tpYRSlO6c7zP1z8VVhoZDY7GLO7wgV/1VqcA0wsKTjFYfiuJGnvlB6J9R
+QMp0f/HsnWHpCcyawKKCkSJJkZv6jTHAdIsx0fJ9F/EPD2+RumEIikPGubQJlv+7
+RMAH+RsEFhzvzw5BDYTJw3isx/cpfwGoo5+Xom9+126VIFDHMKgiGA1GzIr2pQJm
+9IF4uusQAJjnebyWd+UOW8jwZgDwyr8+tic0htkdV60qtEmfqUce+RSCdJ/ZMAVD
+PPJJSWN49eY7JLKAQ8c1Eo3oEzyeoftsq6HK5229cAe97f3120nKrUwxB5yIleUV
+wVTFbOqQ9BNnRsjBDyr3IG70WVxpo9iUj/gsYXaBl4hoJX6yweXOGIZwkQ+VgWBR
+8Q4N9ZvNCpZ98YdqYa6ObJBauQsP6ea9Pr1DaINWPkNxO8yJc2/WNT67DvbVkDmT
+e7aiZOmT2gFl+t9Kt5TS
+=RB2h
 -----END PGP SIGNATURE-----
