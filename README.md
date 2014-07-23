@@ -89,7 +89,7 @@ Contents of the safety deposit [boxen](http://en.wiktionary.org/wiki/boxen):
 
 It is important to separate the private keys from the passphrases because until then the passphrases are essentially useless. Need more deposit boxes!
 
-***USB memory***:
+**USB memory**:
 The USB memory **must** contain a file with the filenames and SHA-512 digests of all files contained on it. This file **must** be signed with my key.
 
 ## Implementation status
@@ -101,6 +101,10 @@ Just this document and the repository at [Github](https://github.com/tazjin/reco
 * Is it possible to make the boxes tamper-proof, i.e. have it be obvious that somebody opened them and looked at the content? Is read-once USB memory a thing? How do you make sure there is enough redundancy for a person not to go and tamper with all your copies just to make you lose access?
 * Can there be a reliable secret known to me with not much explanation (and assuming the explanation is public) even after a memory loss event?
 
+## Random notes
+
+* The contents of the USB key must be as permanent as possible, replacing all USB keys should (optimally) be an expensive thing to do
+
 ## Future paranoia options
 
 Things I can do to improve the security of this:
@@ -110,17 +114,17 @@ Things I can do to improve the security of this:
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAEBCgAGBQJT0DhnAAoJEGb1BWgduPQ7wi0QAIwJCsfUCRCNkrYL0xwnLWUk
-8qr6RGW1Rm4FWcxMDprErjc/gCZG3bjs8L3YcvQ29VGoYlMlJFbM9RTpLu+WeyS9
-CyIfplizsf1UI30PXqyAmQJlt+K7r1V6UnXM54P5JOkWvDtmwRx+7SW1Z+wgBODh
-UeRyunXHUK9gB6QHMNqEKQ2HILeFihr1EhQmXTVPoRSMEuE0k02ncnMiO1af5DsP
-BH/vVEr08xx970P3p4//2CBavCt+mCbtxxh4+9qJ2DSf8HV/b/00zNU2HNwpuRi4
-pRwDrjo5M1E/tr/BXIHHxhq2aHOs0mIIan82ppue8UIwfc2/a8OVvj5S9VJuK0Ds
-HEqToMmo9/DgkYOl7LbvDF9AQUX1GsEjTni/XHNZ/6SgkEbBGQUhP4uLwGiP3etg
-9Rbozs95NFWqJs0LD/kua0ulpne+ahnGXNL0tWYXnjPdDYin/Fi02pejqv0vcA0G
-dnsZn6p/Wcf4hnaExa9HnuazrPLeeKax+meviHA9Cr485arFjvy5ERPkVJP5FmQT
-WX0xVwhMP+furUoIqNs2RJvudQZLwPww0nIhObs9W7h6N3iduC3wNZiQl+yJs2kB
-R2uyTdBw9NH1M2aP8H9mQj9zoQ7E8GeRE40yAbD2c6jHYVlUZgaeI473ZZe12ySk
-tDjHZmb8ZbbUyUlyULf6
-=mwGI
+iQIcBAEBCgAGBQJT0DkhAAoJEGb1BWgduPQ7SM4P/Rk/LfkzyqD8JG8ffZqY53Fs
+vePeS+M32hAl/2PXtfQ+TXXauI9oyTOwdnud2nlg8JfjgMddQgHtylfE/iOLaxGP
+P8c111YI9Aijvse4fHZ1GfZ1eUbWQPv01XPa/LsvXAjPekQ2pqGZkQSgYcIkHD69
+mhOudIH6fw/Cna8iOcrBv902cx49VjWSSU7UvKPD8hGoonbKHT01fsdMT/J1IM26
+j3N1c9qnTsmxBLOtkq5lvDQn8cUSRJ50tubulX2Q89YKiYvIlL72iezse+sdPjjA
+GABX04qpryY6VmOKd7PmL5KmbE44f5zHeWx/zhEpnNKODuQSXhnn87oSwL+SF9JS
+cBoqeMD5PTAC7+q0C8PGAVo1lVPyUWmp6A9Y7e7uD4RtddK5ku118Pxu9XbLXId/
+3UYRhvODUw/hGqY4WDbEjcnnAFyc+BwS2nHbyQurIghIYEkby9d69zHV9BSRkvab
+Z77THSJ/LlTChUBnIaPtKUzxTXcRknC82EmIjdfIoFOUZXYLL9gjjVTGpEIrC8d9
+KcAO3noQvTbBxUEYaq5b0J7JPviK6dOPXr6sXP++ECnXT15KLZ27/PYt3iP+oFZE
+tHVi2mLQWBUB64BohSlQSWA1+lD1BKml3d1C8giIeGyzDRsKcSInI6u5tC6hB36+
+hmkoJZ6uTuZnfvnltbp4
+=gP5A
 -----END PGP SIGNATURE-----
