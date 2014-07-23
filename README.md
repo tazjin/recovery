@@ -36,7 +36,7 @@ These are the minimum available things I assume for being able to recover using 
 **password store**:
 A repository somewhere on the internet containing my pass-store. This repository *should* require my SSH private key to access.
 
-**recovery.md**:
+**README.md**:
 This document, containing information about how the plan works. The current version of this document must always be signed with my private key and preferably exist in a git repository with the `HEAD` signed by my private key as well.
 
 **hello.md**:
@@ -92,17 +92,17 @@ Things I can do to improve the security of this:
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAEBCgAGBQJT0BigAAoJEGb1BWgduPQ7KHMQALl+aO+GmN0SnvY3l62KEc1j
-OGBSjERxfT7jIB6+DyO1GAEj1Mzv5X89M6wWHTy1eIKWLzPfKRFNgkHiVicbbFXo
-Sp3g1Zz0hvDc3BHUVNiN3I6og7kiTxpwUdW/jchK+sVcwQeD6QAacxqkPLmOhBAy
-2V5dXnBnv8gFEiTHCn6wOZfkHFRad0aFPS6KKuZ/kvnCUHNE1NCz37yG+OiGq80i
-adOee8AX7mRMVVIdDDdINAWFiza88gnLnFsdWS7uN964fencOlCjj+PFZ6LD7Xc/
-RpraNKj+CN0AKWUhXxWh+TE+igwZnAQyNNDBK2q7ZWu2a+osh7ofyt+vkR8dyhyK
-pCuBGWYmyXI9imF6GmgMtoGybSofcca+WqErB2+UFX1dk/UfVgG1QTKsmKuYuAUU
-1XAdHciIgDh9ksy9wis0FRCV+id8iLSv3fxqOByXkguXxnF1RRp/AyXNJn2IK0lI
-OO7u8I/VuThjxEAe70MJtzNrRzl30o8szHeqVvmBTFZj7ePcefHxBEArTvrmKRtF
-HGrvM2sNF18duJ1G/2L3tGkNts7JjT/DfrtSb8/mjewdPHqegPhfon5w02LXVYbD
-HO2IWIiH6uqouL2gOyuqqU72QiPWu6Ukj1jT3fX4xQQUVCIyDy/+KSilYG8XupiX
-toOz+xwUqdPUcpaZTim1
-=xwKI
+iQIcBAEBCgAGBQJT0BmlAAoJEGb1BWgduPQ7mCsP/0X5PJMNpGtBCiXlOwPQ2stE
+IcVS+A/nx1q7FAPs7nyPDiI0WVTVWyN/YXfVag1KTPtMUG+Wn1aJqqs4of3QygNt
+ZnUGCN2RMCCSpNTuqv16X71XmptklV/O1nDPH5cFSq/yeWKFjTjWA0rK5o9XCqfF
+E0/ebbmNmu20YURKp5qOPLjDzEJMuxeeSKxkc4/INI4gH6CMRYg3R9Xc+0EH3/0V
+shE6TqIx+Xf7nf9LHUw5Ouwj84O3X25zLLJazYf4Vx4X0zk2IkP+s2njEcn5qk3a
+3iFDbSSmUC2f3br5YWM39EHygUlfDLD939/cefKJ59l6LYonCRv4jB9BVuE/K6hw
+x5n0At9Ea5rG4Jn42g8Vag93cJ+LNvDNmbXeP12rhfhWEp5mI7vjJHEkQuFm6VCN
+65dzyArI9XPIj1V0+B+qPqZh3SYG/xWint4VGHs3XEdIWVqe01RJTgAB3zLGecdd
+e97ajwtXtn06EiuT9wF5DeXkBEslZqo1ijxCgM5sWpPHg5MsySKAFU/mfdV5sitG
+l3K6FE1qbaQ0YAKd8FHvFWt3Ic3jsdv7CeyW1s1hAz08ltxDymg9H40TgoWg06ou
+dvG+EzAnKwOo7q2FqSEX2Col7W1hhlsfW1FsZV/Ou/xY05fQlEHF7kIUzykdAyeJ
+TsUU0utHI9GNNGW8Jx5e
+=IXnU
 -----END PGP SIGNATURE-----
